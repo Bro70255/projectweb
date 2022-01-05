@@ -1,4 +1,43 @@
 /*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  padding: 0;
+  height: 20px;
+}
+#topbar .contact-info i {
+  font-style: normal;
+  color: #00fff0;
+}
+#topbar .contact-info i a, #topbar .contact-info i span {
+  padding-left: 5px;
+  color: green;
+}
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+}
+#topbar .contact-info i a:hover {
+  color: #50d8af;
+}
+#topbar .social-links a {
+  color: #555;
+  padding: 0 15px;
+  display: inline-block;
+  line-height: 1px;
+  border-left: 1px solid #e9e9e9;
+}
+#topbar .social-links a:hover {
+  color: #50d8af;
+}
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+
+/*--------------------------------------------------------------
 # nav bar
 --------------------------------------------------------------*/
 ul {
@@ -27,3 +66,4 @@ li a:hover:not(.active) {
 .active {
   color: #00FFF0;
 }
+
