@@ -1,3 +1,6 @@
+/*--------------------------------------------------------------
+# nav bar
+--------------------------------------------------------------*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -9,7 +12,6 @@ ul {
 li {
   float: right;
 }
-
 li a {
   display: block;
   color: #000;
@@ -19,9 +21,9 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #000;
+  color: #00FFF0;
 }
 
 .active {
-  background-color: #04AA6D;
+  color: #00FFF0;
 }
