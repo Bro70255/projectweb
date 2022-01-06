@@ -1,32 +1,16 @@
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-.socialtop i{
-    padding: 0px 80px;
+.socialtop a{
     background: #fff;
     border-bottom: 1px solid #eee;
     font-size: 14px;
     height: 20px;
 }
-li i{
+.top-social li a{
   float: right;
-  padding:15px;
+   padding: 0px 80px;
 }
-#topbar .contact-info i {
-  font-style: normal;
-  color: #00fff0;
-}
-}
-#topbar .contact-info i a {
-  line-height: 0;
-  transition: 0.3s;
-}
-#topbar .contact-info i a:hover {
-  color: #50d8af;
-}
-
-
-
 /*--------------------------------------------------------------
 # nav bar
 --------------------------------------------------------------*/
