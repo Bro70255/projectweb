@@ -18,17 +18,17 @@
 /*--------------------------------------------------------------
 # nav bar
 --------------------------------------------------------------*/
-.navbar ul{
+ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #fff;
 }
-.navbar li a{
+nav li a{
   float: left;
 }
-.navbar li a {
+nav li a {
   display: block;
   color: #000;
   text-align: center;
@@ -36,10 +36,10 @@
   text-decoration: none;
 }
 
-.navbar li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   color: #00FFF0;
 }
-.navbar .active{
+nav .active{
   color: #00FFF0;
 }
 /*--------------------------------------------------------------
@@ -63,19 +63,19 @@
     .checkbtn{
         display: block;
     }
-    .navbar ul{
+     ul{
         float: left;
         position:fixed;
         height: 100vh;
         background: white;
         top: 80px;
-        left: 0%;
+        left: -100%;
         text-align: center;
         border-right: 1px solid #eee;
         transition: all .5s;
     }
 
-    #check:checked ~ navbar ul{
+    #check:checked~ul{
         left: 0;
     }
 }
