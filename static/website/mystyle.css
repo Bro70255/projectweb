@@ -1,31 +1,34 @@
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-.socialtop {
+.topbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background: #fff;
     border-bottom: 1px solid #eee;
     font-size: 14px;
     height: 20px;
 }
-.top-social li a{
+.topbar li a{
   float: right;
    padding: 0px 80px;
 }
 /*--------------------------------------------------------------
 # nav bar
 --------------------------------------------------------------*/
-ul {
+.navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #fff;
 }
-
-li a{
+.navbar li a{
   float: right;
 }
-li a {
+.navbar li a {
   display: block;
   color: #000;
   text-align: center;
@@ -33,11 +36,9 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.navbar li a:hover:not(.active) {
   color: #00FFF0;
 }
-
-.active {
+.navbar .active{
   color: #00FFF0;
 }
-
