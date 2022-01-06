@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="{% static 'website/mystyle.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
   <!-- ======= Top Bar ======= -->
@@ -23,9 +24,13 @@
           <li><a href="#TuttuScale">TuttuScale</a></li>
           <li><a href="#About">About</a></li>
           <li><a class="active" href="#Home">Home</a></li>
-          <li style="float:left"><a style='color:blue' href="#.com"> curb<span style="color:#00FFF0;font-weight:bold">reality.com</span></a></li>
+          <li style="float:left"><a id="navicon" style='color:blue' href="#.com"> curb<span style="color:#00FFF0;font-weight:bold">reality.com</span></a></li>
       </ul>
   </div>
+
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+  <i class="fa fa-bars"></i></label>
 <!-- ===========end nav bar============ -->
 </body>
 </html>

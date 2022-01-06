@@ -42,3 +42,28 @@
 .navbar .active{
   color: #00FFF0;
 }
+/*--------------------------------------------------------------
+# mobilebar
+--------------------------------------------------------------*/
+.checkbtn{
+    font-size: 30;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display:none;
+}
+@media (max-width: 992px){
+    .topbar ul{
+        display:none;
+    }
+    .navbar {
+        display:none;
+    }
+    .checkbtn{
+        display: block;
+    }
+}
