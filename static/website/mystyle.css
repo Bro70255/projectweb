@@ -1,16 +1,16 @@
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-.socialtop{
-    margin: 0;
-    padding: 0;
-    background: #000;
+.socialtop i{
+    padding: 0px 80px;
+    background: #fff;
     border-bottom: 1px solid #eee;
     font-size: 14px;
     height: 20px;
 }
-.top-social a{
-    padding: 30px;
+li i{
+  float: right;
+  padding:15px;
 }
 #topbar .contact-info i {
   font-style: normal;
@@ -26,6 +26,7 @@
 }
 
 
+
 /*--------------------------------------------------------------
 # nav bar
 --------------------------------------------------------------*/
@@ -37,7 +38,7 @@ ul {
   background-color: #fff;
 }
 
-li {
+li a{
   float: right;
 }
 li a {
