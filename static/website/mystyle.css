@@ -26,7 +26,7 @@
   background-color: #fff;
 }
 .navbar li a{
-  float: right;
+  float: left;
 }
 .navbar li a {
   display: block;
@@ -48,22 +48,34 @@
 .checkbtn{
     font-size: 30;
     color: black;
-    float: right;
+    float: left;
     line-height: 80px;
     margin-right: 40px;
     display: none;
 }
 #check{
-    display:none;
+
 }
 @media (max-width: 992px){
     .topbar ul{
         display:none;
     }
-    .navbar {
-        display:none;
-    }
     .checkbtn{
         display: block;
+    }
+    .navbar ul{
+        float: left;
+        position:fixed;
+        height: 100vh;
+        background: white;
+        top: 80px;
+        left: 0%;
+        text-align: center;
+        border-right: 1px solid #eee;
+        transition: all .5s;
+    }
+
+    #check:checked ~ navbar ul{
+        left: 0;
     }
 }
