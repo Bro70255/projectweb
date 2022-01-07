@@ -43,29 +43,24 @@ nav .active{
   color: #00FFF0;
 }
 /*--------------------------------------------------------------
-# mobilebar
+# nav bar
 --------------------------------------------------------------*/
 .checkbtn{
-    font-size: 30;
+    font-size: 20;
     color: black;
     float: left;
     line-height: 80px;
     margin-right: 40px;
     display: none;
+    cursor: pointer;
 }
 #check{
-
+    display: none;
 }
 @media (max-width: 992px){
-    .topbar ul{
-        display:none;
-    }
-    .checkbtn{
-        display: block;
-    }
-     ul{
+   nav ul{
         float: left;
-        position:fixed;
+        position:   fixed;
         height: 100vh;
         background: white;
         top: 80px;
@@ -73,9 +68,19 @@ nav .active{
         text-align: center;
         border-right: 1px solid #eee;
         transition: all .5s;
-    }
-
-    #check:checked~ul{
-        left: 0;
+   }
+   .checkbtn{
+        display: block;
+   }
+    #check:checked ~ nav ul{
+        float: left;
+        position: fixed;
+        height: 100vh;
+        background: white;
+        top: 80px;
+        left: 0%;
+        text-align: center;
+        border-right: 1px solid #eee;
+        transition: all .5s;
     }
 }
