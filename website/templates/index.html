@@ -1,6 +1,8 @@
 {% load static %}
 <html>
 <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'website/mystyle.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,15 +20,17 @@
   </div><!-- End Top Bar-->
 <!--===========nav bar ============== -->
   <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn"><i class="fa fa-bars"></i></label>
-      <ul>
+      <div id="center">
+        <label for="toggle" id="navbartoggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <ul>
           <li><a class="active" href="#Home">Home</a></li>
           <li><a href="#About">About</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#TuttuScale">TuttuScale</a></li>
           <li style="float:right"><a id="navicon" style='color:blue' href="#.com"> curb<span style="color:#00FFF0;font-weight:bold">reality.com</span></a></li>
-      </ul>
+        </ul>
+     </div>
   </nav>
 <!-- ===========end nav bar============ -->
 </body>
