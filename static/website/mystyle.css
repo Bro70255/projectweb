@@ -97,8 +97,8 @@ display: none;
   float: left;
   width: 50%;
   padding: 10px;
-  height: 140px;
-  text-align: center;/* Should be removed. Only for demonstration */
+  height: 150px;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -109,6 +109,11 @@ display: none;
 }
 #image2{
   text-align: center;
+}
+@media (max-width: 992px) {
+    #image2{
+ margin-top: 20px;
+}
 }
 /*--------------------------------------------------------------
 # body button
@@ -153,4 +158,22 @@ body{
 }
 .btn:hover::before{
   height: 180%;
+}
+/*--------------------------------------------------------------
+# mobile view
+--------------------------------------------------------------*/
+@media (max-width: 600px) {
+    #image2{
+ margin-top: 20px;
+}
+.elements {
+  height: 50px;
+  width: 100%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 190px;
+  text-align: center;
 }
