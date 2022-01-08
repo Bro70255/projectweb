@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-.topbar ul{
+.topbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,21 +11,21 @@
     font-size: 14px;
     height: 20px;
 }
-.topbar li a{
+.topbar li a {
   float: right;
    padding: 0px 80px;
 }
 /*--------------------------------------------------------------
 # nav bar
 --------------------------------------------------------------*/
- ul{
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #fff;
 }
-nav li a{
+nav li a {
   float: left;
 }
 nav li a {
@@ -39,21 +39,21 @@ nav li a {
 nav li a:hover:not(.active) {
   color: #00FFF0;
 }
-nav .active{
+nav .active {
   color: #00FFF0;
 }
 /*--------------------------------------------------------------
 # nav bar
 --------------------------------------------------------------*/
-#navbartoggle{
+#navbartoggle {
 cursor: pointer;
 display: none;
 }
-#toggle{
+#toggle {
     display: none;
 }
-@media (max-width: 992px){
-   nav ul{
+@media (max-width: 992px) {
+   nav ul {
         float: left;
         position: fixed;
         height: 100vh;
@@ -64,10 +64,10 @@ display: none;
         border-right: 1px solid #eee;
         transition: all .5s;
    }
-   #navbartoggle{
+   #navbartoggle {
         display: block;
    }
-    #toggle:checked + ul{
+    #toggle:checked + ul {
         left: 0;
     }
 }
@@ -97,7 +97,7 @@ display: none;
   float: left;
   width: 50%;
   padding: 10px;
-  height: 200px;
+  height: 150px;
   text-align: center;/* Should be removed. Only for demonstration */
 }
 
