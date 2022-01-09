@@ -66,6 +66,7 @@ display: none;
    }
    #navbartoggle {
         display: block;
+        text-align: center;
    }
     #toggle:checked + ul {
         left: 0;
@@ -176,4 +177,7 @@ body{
   padding: 10px;
   height: 190px;
   text-align: center;
+}
+
+}
 }
