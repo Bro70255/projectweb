@@ -2,7 +2,12 @@
         display: none;
 }
 .digit {
-  width: 70%;
+  border-style: inset;
+  width: 65%;
+  height: 40px;
   display: flex;
   justify-content: space-around;
+}
+.entiredigit{
+    border-style: inset;
 }
