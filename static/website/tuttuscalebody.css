@@ -2,12 +2,18 @@
         display: none;
 }
 .digit {
-  border-style: inset;
   width: 65%;
   height: 40px;
   display: flex;
   justify-content: space-around;
 }
-.entiredigit{
-    border-style: inset;
+.digit{
+ background:black;
+ color: white;
+ animation-name: example;
+ animation-duration: 5s;
+}
+@keyframes example {
+  from {color: black;}
+  to {color: white;}
 }
