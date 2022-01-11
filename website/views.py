@@ -6,4 +6,5 @@ def index(request):
 
 def mainframe(request):
 
+
     return render(request, 'mainframe.html')

@@ -24,10 +24,10 @@
         <label for="toggle" id="navbartoggle">&#9776;</label>
         <input type="checkbox" id="toggle"/>
         <ul>
-          <li><a class="active" href='index.html'>Home</a></li>
+          <li><a class="active" href= "{% url 'index' %}">Home</a></li>
           <li><a href="#About">About</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="mainframe.html">TuttuScale</a></li>
+          <li><a href="{% url 'mainframe' %}">TuttuScale</a></li>
           <li style="float:right"><a id="navicon" style='color:blue' href="#.com"> curb<span style="color:#00FFF0;font-weight:bold">reality.com</span></a></li>
         </ul>
      </div>

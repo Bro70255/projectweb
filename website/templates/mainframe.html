@@ -1,5 +1,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<div class = 'digit'>
+    <p id="0">1000</p>
+    <button id="b1" type="button" onclick='document.getElementById(0).style.color = "blue";'>Click Me!</button>
+    <script>
+        for ( let i = 0; i < 1000; i++ ) {
+        document.getElementById("b1").click();
+    }
+    </script>
+</div>
 {% endblock %}
