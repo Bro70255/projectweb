@@ -92,7 +92,6 @@ display: none;
 --------------------------------------------------------------*/
 * {
   box-sizing: border-box;
-  font-family: Copperplate, Papyrus, fantasy;
 }
 .column {
   float: left;
@@ -119,10 +118,7 @@ display: none;
 /*--------------------------------------------------------------
 # body button
 --------------------------------------------------------------*/
-body{
-  margin: 0;
-  padding: 0;
-}
+
 .container{
   text-align: center;
 }
