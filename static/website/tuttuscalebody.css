@@ -1,45 +1,33 @@
-
-.tuttu{
-   background: #fff;
+.mainframe{
+background: white;
 }
-.wrapper{
-    padding: 20px;
-    display: inline-flex;
+.icon_position{
+    padding: 30px;
 }
-.wrapper .icon{
-  margin: 0 20px;
-  text-align: center;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  z-index: 2;
-  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.wrapper .icon span{
+.btn1{
+  background: white;
   display: block;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
+  cursor: pointer;
+  height: 30px;
+  width: 50px;
+  border-radius: 20%;
   position: relative;
-  z-index: 2;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.wrapper .icon span i{
-  line-height: 60px;
-  font-size: 25px;
+.btn1 i{
+    font-family: Arial, sans-serif;
+  line-height: 30px;
+  font-size: 20px;
 }
-.wrapper .icon .tooltip{
+.wrapper{
   margin:  20px;
   height: 300px;
   width: 300px;
   position: absolute;
   top: 10%;
   z-index: 1;
-  background: black;
+  background: white;
   color: black;
   padding: 10px 18px;
   font-size: 20px;
@@ -50,8 +38,11 @@
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition:all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.wrapper .icon:hover .tooltip{
-  top: 50px;
-  opacity: 10;
+#btnControl {
+    display: none;
+}
+#btnControl:checked + label > .wrapper{
+   color: red;
+  opacity: 1;
   pointer-events: auto;
 }
