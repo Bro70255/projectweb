@@ -2,18 +2,18 @@
 background: white;
 }
 .icon_position{
+    padding: 20px;
     display: inline-flex;
-    padding: 30px;
-    width: 5px;
-    margin: 0px;
-    box-sizing: border-box;
+}
+.icon_position span{
+    padding: 3px;
 }
 .btn1{
   background: white;
   display: block;
   cursor: pointer;
-  height: 30px;
-  width: 50px;
+  height: 18px;
+  width: 35px;
   border-radius: 20%;
   position: relative;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
@@ -21,8 +21,8 @@ background: white;
 }
 .btn1 i{
   font-family: Arial, sans-serif;
-  line-height: 30px;
-  font-size: 20px;
+  line-height: 20px;
+  font-size: 15px;
 }
 .wrapper{
   margin: -40px;
