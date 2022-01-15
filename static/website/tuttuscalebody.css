@@ -4,8 +4,9 @@ background: white;
 .icon_position{
     display: inline-flex;
     padding: 30px;
-    width: 10px;
-    margin: 5px;
+    width: 5px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 .btn1{
   background: white;
@@ -19,7 +20,7 @@ background: white;
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .btn1 i{
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 30px;
   font-size: 20px;
 }
@@ -42,11 +43,29 @@ background: white;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition:all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-#btnControl,#btnControl_1{
+.hidebutton{
     display: none;
 }
-#btnControl:checked + label > .wrapper,
-#btnControl_1:checked + label > .wrapper{
+#btnControl_0:checked + label > .wrapper,
+#btnControl_1:checked + label > .wrapper,
+#btnControl_2:checked + label > .wrapper,
+#btnControl_3:checked + label > .wrapper,
+#btnControl_4:checked + label > .wrapper,
+#btnControl_5:checked + label > .wrapper,
+#btnControl_6:checked + label > .wrapper,
+#btnControl_7:checked + label > .wrapper,
+#btnControl_8:checked + label > .wrapper,
+#btnControl_9:checked + label > .wrapper,
+#btnControl_10:checked + label > .wrapper,
+#btnControl_11:checked + label > .wrapper,
+#btnControl_12:checked + label > .wrapper,
+#btnControl_13:checked + label > .wrapper,
+#btnControl_14:checked + label > .wrapper,
+#btnControl_15:checked + label > .wrapper,
+#btnControl_16:checked + label > .wrapper,
+#btnControl_17:checked + label > .wrapper,
+#btnControl_18:checked + label > .wrapper,
+#btnControl_19:checked + label > .wrapper{
    color: red;
   opacity: 1;
   pointer-events: auto;
