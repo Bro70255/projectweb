@@ -1,19 +1,19 @@
 .mainframe{
 background: white;
 }
-.icon_position{
-    padding: 20px;
+.icon_position1,.icon_position2{
+    padding: 2px;
     display: inline-flex;
 }
-.icon_position span{
-    padding: 3px;
+.icon_position1 span,.icon_position2 span{
+   padding: 2px;
 }
 .btn1{
   background: white;
   display: block;
   cursor: pointer;
-  height: 18px;
-  width: 35px;
+  height: 25px;
+  width: 50px;
   border-radius: 20%;
   position: relative;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
@@ -21,15 +21,15 @@ background: white;
 }
 .btn1 i{
   font-family: Arial, sans-serif;
-  line-height: 20px;
-  font-size: 15px;
+  line-height: 30px;
+  font-size: 20px;
 }
 .wrapper{
   margin: -40px;
   height: 300px;
   width: 300px;
   position: absolute;
-  top: 300%;
+  top: 350%;
   z-index: 1;
   background: white;
   border-style: ridge;
@@ -46,26 +46,20 @@ background: white;
 .hidebutton{
     display: none;
 }
-#btnControl_0:checked + label > .wrapper,
-#btnControl_1:checked + label > .wrapper,
-#btnControl_2:checked + label > .wrapper,
-#btnControl_3:checked + label > .wrapper,
-#btnControl_4:checked + label > .wrapper,
-#btnControl_5:checked + label > .wrapper,
-#btnControl_6:checked + label > .wrapper,
-#btnControl_7:checked + label > .wrapper,
-#btnControl_8:checked + label > .wrapper,
-#btnControl_9:checked + label > .wrapper,
-#btnControl_10:checked + label > .wrapper,
-#btnControl_11:checked + label > .wrapper,
-#btnControl_12:checked + label > .wrapper,
-#btnControl_13:checked + label > .wrapper,
-#btnControl_14:checked + label > .wrapper,
-#btnControl_15:checked + label > .wrapper,
-#btnControl_16:checked + label > .wrapper,
-#btnControl_17:checked + label > .wrapper,
-#btnControl_18:checked + label > .wrapper,
-#btnControl_19:checked + label > .wrapper{
+#btnControl_0:checked + label > .wrapper,#btnControl_1:checked + label > .wrapper,#btnControl_2:checked + label > .wrapper,
+#btnControl_3:checked + label > .wrapper,#btnControl_4:checked + label > .wrapper,#btnControl_5:checked + label > .wrapper,
+#btnControl_6:checked + label > .wrapper,#btnControl_7:checked + label > .wrapper,#btnControl_8:checked + label > .wrapper,
+#btnControl_9:checked + label > .wrapper,#btnControl_10:checked + label > .wrapper,#btnControl_11:checked + label > .wrapper,
+#btnControl_12:checked + label > .wrapper,#btnControl_13:checked + label > .wrapper,#btnControl_14:checked + label > .wrapper,
+#btnControl_15:checked + label > .wrapper,#btnControl_16:checked + label > .wrapper,#btnControl_17:checked + label > .wrapper,
+#btnControl_18:checked + label > .wrapper,#btnControl_19:checked + label > .wrapper,
+#btnControl_20:checked + label > .wrapper,#btnControl_21:checked + label > .wrapper,#btnControl_22:checked + label > .wrapper,
+#btnControl_23:checked + label > .wrapper,#btnControl_24:checked + label > .wrapper,#btnControl_25:checked + label > .wrapper,
+#btnControl_26:checked + label > .wrapper,#btnControl_27:checked + label > .wrapper,#btnControl_28:checked + label > .wrapper,
+#btnControl_29:checked + label > .wrapper,#btnControl_30:checked + label > .wrapper,#btnControl_31:checked + label > .wrapper,
+#btnControl_32:checked + label > .wrapper,#btnControl_33:checked + label > .wrapper,#btnControl_34:checked + label > .wrapper,
+#btnControl_35:checked + label > .wrapper,#btnControl_36:checked + label > .wrapper,#btnControl_37:checked + label > .wrapper,
+#btnControl_38:checked + label > .wrapper,#btnControl_39:checked + label > .wrapper{
    color: red;
   opacity: 1;
   pointer-events: auto;
