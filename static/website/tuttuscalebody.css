@@ -2,7 +2,7 @@
 background: white;
 }
 .icon_position1,.icon_position2{
-    padding: 2px;
+    padding: 10px 100px;
     display: inline-flex;
 }
 .icon_position1 span,.icon_position2 span{
@@ -25,18 +25,18 @@ background: white;
   font-size: 20px;
 }
 .wrapper{
-  margin: -40px;
+  margin: -50px;
   height: 300px;
   width: 300px;
   position: absolute;
-  top: 350%;
+  top: 310%;
   z-index: 1;
   background: white;
   border-style: ridge;
-  color: blue;
-  padding: 10px 18px;
-  font-size: 20px;
-  font-weight: 500;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
   border-radius: 25px;
   opacity: 0;
   pointer-events: none;
@@ -60,7 +60,6 @@ background: white;
 #btnControl_32:checked + label > .wrapper,#btnControl_33:checked + label > .wrapper,#btnControl_34:checked + label > .wrapper,
 #btnControl_35:checked + label > .wrapper,#btnControl_36:checked + label > .wrapper,#btnControl_37:checked + label > .wrapper,
 #btnControl_38:checked + label > .wrapper,#btnControl_39:checked + label > .wrapper{
-   color: red;
   opacity: 1;
   pointer-events: auto;
 }
