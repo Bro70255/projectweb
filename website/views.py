@@ -1,4 +1,10 @@
 from django.shortcuts import render
+from .models import Destination
+
+
+def about(request):
+    event_list = Destination.objects.all()
+    return render(request, 'about.html', {'event_list': event_list})
 
 
 def index(request):
@@ -6,7 +12,8 @@ def index(request):
 
 
 def mainframe(request):
-    return render(request, 'mainframe.html')
+    event_list = Destination.objects.all()
+    return render(request, 'mainframe.html',{'event_list': event_list})
 
 
 def contact(request):
@@ -16,6 +23,6 @@ def contact(request):
         email_address = request.POST['emailaddress']
         website_name = request.POST['websitename']
         text_area = request.POST['textarea']
-        return render(request, 'contact.html', {'first_name': first_name })
+        return render(request, 'contact.html', {'first_name': first_name})
     else:
         return render(request, 'contact.html', {})

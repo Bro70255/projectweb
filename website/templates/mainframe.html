@@ -4,7 +4,12 @@
 {% block content %}
 <body class="mainframe">
 <dev class="icon_position1">
-<span><input type="checkbox" class="hidebutton" id="btnControl_0"/><label class="btn1" for="btnControl_0"><i>1000</i><dev class="wrapper">1000</dev></label></span>
+<span><input type="checkbox" class="hidebutton" id="btnControl_0"/><label class="btn1" for="btnControl_0"><i>1000</i><dev class="wrapper">
+    <ul>
+        <li><i>{{ event_list.0 }}</i></li>
+        <li><p>{{ event_list.0.desc }}</p></li>
+    </ul>
+</dev></label></span>
 <span><input type="checkbox" class="hidebutton" id="btnControl_1"/><label class="btn1" for="btnControl_1"><i>1000</i><dev class="wrapper">2000</dev></label></span>
 <span><input type="checkbox" class="hidebutton" id="btnControl_2"/><label class="btn1" for="btnControl_2"><i>1000</i><dev class="wrapper">2000</dev></label></span>
 <span><input type="checkbox" class="hidebutton" id="btnControl_3"/><label class="btn1" for="btnControl_3"><i>1000</i><dev class="wrapper">2000</dev></label></span>
