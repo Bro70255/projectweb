@@ -2,7 +2,7 @@
 background: white;
 }
 .icon_position1,.icon_position2{
-    padding: 10px 100px;
+    padding: 10px 10px;
     display: inline-flex;
 }
 .icon_position1 span,.icon_position2 span{
@@ -59,7 +59,63 @@ background: white;
 #btnControl_29:checked + label > .wrapper,#btnControl_30:checked + label > .wrapper,#btnControl_31:checked + label > .wrapper,
 #btnControl_32:checked + label > .wrapper,#btnControl_33:checked + label > .wrapper,#btnControl_34:checked + label > .wrapper,
 #btnControl_35:checked + label > .wrapper,#btnControl_36:checked + label > .wrapper,#btnControl_37:checked + label > .wrapper,
-#btnControl_38:checked + label > .wrapper,#btnControl_39:checked + label > .wrapper{
+#btnControl_38:checked + label > .wrapper,#btnControl_39:checked + label > .wrapper,
+#btnControl_40:checked + label > .wrapper,#btnControl_41:checked + label > .wrapper,#btnControl_42:checked + label > .wrapper,
+#btnControl_43:checked + label > .wrapper,#btnControl_44:checked + label > .wrapper,#btnControl_25:checked + label > .wrapper,
+#btnControl_46:checked + label > .wrapper,#btnControl_47:checked + label > .wrapper,#btnControl_48:checked + label > .wrapper,
+#btnControl_49:checked + label > .wrapper,#btnControl_50:checked + label > .wrapper,#btnControl_51:checked + label > .wrapper,
+#btnControl_52:checked + label > .wrapper,#btnControl_53:checked + label > .wrapper,#btnControl_54:checked + label > .wrapper,
+#btnControl_55:checked + label > .wrapper,#btnControl_56:checked + label > .wrapper,#btnControl_57:checked + label > .wrapper,
+#btnControl_58:checked + label > .wrapper,#btnControl_59:checked + label > .wrapper,
+#btnControl_60:checked + label > .wrapper,#btnControl_61:checked + label > .wrapper,#btnControl_62:checked + label > .wrapper,
+#btnControl_63:checked + label > .wrapper,#btnControl_24:checked + label > .wrapper,#btnControl_25:checked + label > .wrapper,
+#btnControl_66:checked + label > .wrapper,#btnControl_67:checked + label > .wrapper,#btnControl_68:checked + label > .wrapper,
+#btnControl_69:checked + label > .wrapper,#btnControl_70:checked + label > .wrapper,#btnControl_71:checked + label > .wrapper,
+#btnControl_72:checked + label > .wrapper,#btnControl_73:checked + label > .wrapper,#btnControl_74:checked + label > .wrapper,
+#btnControl_75:checked + label > .wrapper,#btnControl_76:checked + label > .wrapper,#btnControl_77:checked + label > .wrapper,
+#btnControl_78:checked + label > .wrapper,#btnControl_79:checked + label > .wrapper,
+#btnControl_80:checked + label > .wrapper,#btnControl_81:checked + label > .wrapper,#btnControl_82:checked + label > .wrapper,
+#btnControl_83:checked + label > .wrapper,#btnControl_84:checked + label > .wrapper,#btnControl_85:checked + label > .wrapper,
+#btnControl_86:checked + label > .wrapper,#btnControl_87:checked + label > .wrapper,#btnControl_88:checked + label > .wrapper,
+#btnControl_89:checked + label > .wrapper,#btnControl_90:checked + label > .wrapper,#btnControl_91:checked + label > .wrapper,
+#btnControl_32:checked + label > .wrapper,#btnControl_33:checked + label > .wrapper,#btnControl_94:checked + label > .wrapper,
+#btnControl_95:checked + label > .wrapper,#btnControl_96:checked + label > .wrapper,#btnControl_97:checked + label > .wrapper,
+#btnControl_98:checked + label > .wrapper,#btnControl_99:checked + label > .wrapper,
+ #btnControl_100:checked + label > .wrapper,#btnControl_101:checked + label > .wrapper,#btnControl_102:checked + label > .wrapper,
+#btnControl_103:checked + label > .wrapper,#btnControl_104:checked + label > .wrapper,#btnControl_105:checked + label > .wrapper,
+#btnControl_106:checked + label > .wrapper,#btnControl_107:checked + label > .wrapper,#btnControl_108:checked + label > .wrapper,
+#btnControl_109:checked + label > .wrapper,#btnControl_110:checked + label > .wrapper,#btnControl_111:checked + label > .wrapper,
+#btnControl_112:checked + label > .wrapper,#btnControl_113:checked + label > .wrapper,#btnControl_114:checked + label > .wrapper,
+#btnControl_115:checked + label > .wrapper,#btnControl_116:checked + label > .wrapper,#btnControl_117:checked + label > .wrapper,
+#btnControl_118:checked + label > .wrapper,#btnControl_119:checked + label > .wrapper,
+#btnControl_120:checked + label > .wrapper,#btnControl_121:checked + label > .wrapper,#btnControl_122:checked + label > .wrapper,
+#btnControl_123:checked + label > .wrapper,#btnControl_124:checked + label > .wrapper,#btnControl_125:checked + label > .wrapper,
+#btnControl_126:checked + label > .wrapper,#btnControl_127:checked + label > .wrapper,#btnControl_128:checked + label > .wrapper,
+#btnControl_129:checked + label > .wrapper,#btnControl_130:checked + label > .wrapper,#btnControl_131:checked + label > .wrapper,
+#btnControl_132:checked + label > .wrapper,#btnControl_133:checked + label > .wrapper,#btnControl_134:checked + label > .wrapper,
+#btnControl_135:checked + label > .wrapper,#btnControl_136:checked + label > .wrapper,#btnControl_137:checked + label > .wrapper,
+#btnControl_38:checked + label > .wrapper,#btnControl_139:checked + label > .wrapper,
+#btnControl_140:checked + label > .wrapper,#btnControl_141:checked + label > .wrapper,#btnControl_142:checked + label > .wrapper,
+#btnControl_43:checked + label > .wrapper,#btnControl_44:checked + label > .wrapper,#btnControl_125:checked + label > .wrapper,
+#btnControl_146:checked + label > .wrapper,#btnControl_147:checked + label > .wrapper,#btnControl_148:checked + label > .wrapper,
+#btnControl_149:checked + label > .wrapper,#btnControl_150:checked + label > .wrapper,#btnControl_151:checked + label > .wrapper,
+#btnControl_152:checked + label > .wrapper,#btnControl_153:checked + label > .wrapper,#btnControl_154:checked + label > .wrapper,
+#btnControl_155:checked + label > .wrapper,#btnControl_156:checked + label > .wrapper,#btnControl_157:checked + label > .wrapper,
+#btnControl_158:checked + label > .wrapper,#btnControl_159:checked + label > .wrapper,
+#btnControl_160:checked + label > .wrapper,#btnControl_161:checked + label > .wrapper,#btnControl_162:checked + label > .wrapper,
+#btnControl_163:checked + label > .wrapper,#btnControl_124:checked + label > .wrapper,#btnControl_125:checked + label > .wrapper,
+#btnControl_166:checked + label > .wrapper,#btnControl_167:checked + label > .wrapper,#btnControl_168:checked + label > .wrapper,
+#btnControl_169:checked + label > .wrapper,#btnControl_170:checked + label > .wrapper,#btnControl_171:checked + label > .wrapper,
+#btnControl_172:checked + label > .wrapper,#btnControl_173:checked + label > .wrapper,#btnControl_174:checked + label > .wrapper,
+#btnControl_175:checked + label > .wrapper,#btnControl_176:checked + label > .wrapper,#btnControl_177:checked + label > .wrapper,
+#btnControl_178:checked + label > .wrapper,#btnControl_179:checked + label > .wrapper,
+#btnControl_180:checked + label > .wrapper,#btnControl_181:checked + label > .wrapper,#btnControl_182:checked + label > .wrapper,
+#btnControl_183:checked + label > .wrapper,#btnControl_184:checked + label > .wrapper,#btnControl_185:checked + label > .wrapper,
+#btnControl_186:checked + label > .wrapper,#btnControl_187:checked + label > .wrapper,#btnControl_188:checked + label > .wrapper,
+#btnControl_189:checked + label > .wrapper,#btnControl_190:checked + label > .wrapper,#btnControl_191:checked + label > .wrapper,
+#btnControl_192:checked + label > .wrapper,#btnControl_193:checked + label > .wrapper,#btnControl_194:checked + label > .wrapper,
+#btnControl_195:checked + label > .wrapper,#btnControl_196:checked + label > .wrapper,#btnControl_197:checked + label > .wrapper,
+#btnControl_198:checked + label > .wrapper,#btnControl_199:checked + label >.wrapper{
   opacity: 1;
   pointer-events: auto;
 }
