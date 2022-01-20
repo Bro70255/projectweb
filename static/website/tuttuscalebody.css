@@ -1,11 +1,31 @@
+* {
+  box-sizing: border-box;
+}
 .mainframe{
-background: white;
+  background: white;
 }
 .icon_position1,.icon_position2{
     padding: 10px 10px;
     display: inline-flex;
 }
-.icon_position1 span,.icon_position2 span{
+.column_1 {
+  float: left;
+  width: 82%;
+  height: 480px;
+  text-align: center;
+}
+.column_2 {
+  float: left;
+  height: 480px;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row_1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon_position2 span{
    padding: 2px;
 }
 .btn1{

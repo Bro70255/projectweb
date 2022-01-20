@@ -3,11 +3,13 @@
 
 {% block content %}
 <body class="mainframe">
-<dev class="icon_position1">
+<div class="row_1">
+  <div class="column_1" style="background-color:#aaa;">
+<dev class="icon_position2">
 <span><input type="checkbox" class="hidebutton" id="btnControl_0"/><label class="btn1" for="btnControl_0"><i>1000</i><dev class="wrapper">
     <ul>
-        <li><u><i>{{ event_list.0 }}</i></u></li>
-        <li><p>{{ event_list.0.desc }}</p></li>
+        <li><u><i>{{ event_list.1 }}</i></u></li>
+        <li><p>{{ event_list.1.desc }}</p></li>
     </ul>
 </dev></label></span>
 <span><input type="checkbox" class="hidebutton" id="btnControl_1"/><label class="btn1" for="btnControl_1"><i>1000</i><dev class="wrapper">2000</dev></label></span>
@@ -226,7 +228,17 @@
 <span><input type="checkbox" class="hidebutton" id="btnControl_196"/><label class="btn1" for="btnControl_196"><i>1000</i><dev class="wrapper">2000</dev></label></span>
 <span><input type="checkbox" class="hidebutton" id="btnControl_197"/><label class="btn1" for="btnControl_197"><i>1000</i><dev class="wrapper">2000</dev></label></span>
 <span><input type="checkbox" class="hidebutton" id="btnControl_198"/><label class="btn1" for="btnControl_198"><i>1000</i><dev class="wrapper">2000</dev></label></span>
-<span><input type="checkbox" class="hidebutton" id="btnControl_199"/><label class="btn1" for="btnControl_199"><i>1000</i><dev class="wrapper">2000</dev></label></span>
-</dev>
+<span><input type="checkbox" class="hidebutton" id="btnControl_199"/><label class="btn1" for="btnControl_199"><i>1000</i><dev class="wrapper">
+    <ul>
+        <li><u><i>{{ event_list.0 }}</i></u></li>
+        <li><p>{{ event_list.0.desc }}</p></li>
+    </ul>
+</dev></label></span>
+</dev></div>
+    <div class="column_2" style="background-color:#bbb;">
+      <img src="{% static 'website/image/arrow2.jpg'%}" >
+  </div>
+</div>
 </body>
+<img src="{% static 'website/image/arrow0.jpg'%}">
 {% endblock %}

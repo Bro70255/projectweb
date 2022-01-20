@@ -100,7 +100,6 @@ display: none;
   height: 150px;
   text-align: center;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
